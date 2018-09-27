@@ -51,7 +51,7 @@
     <lightning:layout verticalAlign="end" class="path-to-zip slds-m-around--small">
       <lightning:layoutitem flexibility="grow">
         <span onkeypress="{!c.keyCheck}">
-          <lightning:input aura:id="searchTerms" type="text" label="Search Terms" value="{!v.searchTerms}" />
+          <lightning:input aura:id="searchTerms" type="text" label="Search Terms (I have been modified ~!)" value="{!v.searchTerms}" />
         </span>
       </lightning:layoutitem>
       <lightning:layoutitem>
